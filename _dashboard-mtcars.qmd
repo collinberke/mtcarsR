@@ -1,0 +1,47 @@
+---
+title: "mtcarsR 0.0.0.9001"
+format:
+  dashboard:
+    orientation: rows
+output-file: mtcarsR.html
+embed-resources: true
+---
+
+```{r}
+#| label: setup
+library(tibble)
+library(ggplot2)
+```
+
+# Cars
+
+## Row {height=50%}
+
+### Column {width=50%}
+
+::: {.card title="Mileage by displacement"}
+
+```{r}
+#| label: vis-mpg-by-disp
+ggplot(data = mtcars, aes(x = disp, y = mpg)) +
+  geom_point() +
+  theme_minimal()
+```
+
+:::
+
+### Column {width=50%}
+
+::: {.card title="Mileage by horsepower"}
+
+```{r}
+ggplot(data = mtcars, aes(x = hp, y = mpg)) +
+  geom_point() +
+  theme_minimal()
+```
+
+:::
+
+# About
+
+Here be some more info about the data.
