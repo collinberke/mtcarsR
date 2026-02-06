@@ -3,7 +3,6 @@ title: "mtcarsR 0.0.0.9001"
 format:
   dashboard:
     orientation: rows
-output-file: mtcarsR.html
 embed-resources: true
 ---
 
@@ -11,6 +10,7 @@ embed-resources: true
 #| label: setup
 library(tibble)
 library(ggplot2)
+library(mtcarsR)
 ```
 
 # Cars
@@ -23,9 +23,7 @@ library(ggplot2)
 
 ```{r}
 #| label: vis-mpg-by-disp
-ggplot(data = mtcars, aes(x = disp, y = mpg)) +
-  geom_point() +
-  theme_minimal()
+vis_scatterplot(mtcars, disp, mpg)
 ```
 
 :::
@@ -35,9 +33,7 @@ ggplot(data = mtcars, aes(x = disp, y = mpg)) +
 ::: {.card title="Mileage by horsepower"}
 
 ```{r}
-ggplot(data = mtcars, aes(x = hp, y = mpg)) +
-  geom_point() +
-  theme_minimal()
+vis_scatterplot(mtcars, hp, mpg)
 ```
 
 :::
