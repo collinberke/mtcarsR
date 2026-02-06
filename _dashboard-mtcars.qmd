@@ -10,7 +10,6 @@ embed-resources: true
 #| label: setup
 library(tibble)
 library(ggplot2)
-library(mtcarsR)
 ```
 
 # Cars
