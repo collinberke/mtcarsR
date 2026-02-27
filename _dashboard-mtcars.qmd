@@ -3,7 +3,6 @@ title: "mtcarsR 0.0.0.9001"
 format:
   dashboard:
     orientation: rows
-embed-resources: true
 execute:
   dir: "."
 ---
