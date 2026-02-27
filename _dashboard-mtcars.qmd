@@ -4,6 +4,8 @@ format:
   dashboard:
     orientation: rows
 embed-resources: true
+execute:
+  dir: "."
 ---
 
 ```{r}

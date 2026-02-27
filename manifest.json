@@ -1150,8 +1150,8 @@
         "Package": "viridisLite",
         "Type": "Package",
         "Title": "Colorblind-Friendly Color Maps (Lite Version)",
-        "Version": "0.4.2",
-        "Date": "2023-05-02",
+        "Version": "0.4.3",
+        "Date": "2026-02-03",
         "Authors@R": "c(\n      person(\"Simon\", \"Garnier\", email = \"garnier@njit.edu\", role = c(\"aut\", \"cre\")),\n      person(\"Noam\", \"Ross\", email = \"noam.ross@gmail.com\", role = c(\"ctb\", \"cph\")),\n      person(\"Bob\", \"Rudis\", email = \"bob@rud.is\", role = c(\"ctb\", \"cph\")),\n      person(\"Marco\", \"Sciaini\", email = \"sciaini.marco@gmail.com\", role = c(\"ctb\", \"cph\")),\n      person(\"Antônio Pedro\", \"Camargo\", role = c(\"ctb\", \"cph\")),\n      person(\"Cédric\", \"Scherer\", email = \"scherer@izw-berlin.de\", role = c(\"ctb\", \"cph\"))\n  )",
         "Maintainer": "Simon Garnier <garnier@njit.edu>",
         "Description": "Color maps designed to improve graph readability for readers with \n    common forms of color blindness and/or color vision deficiency. The color \n    maps are also perceptually-uniform, both in regular form and also when \n    converted to black-and-white for printing. This is the 'lite' version of the \n    'viridis' package that also contains 'ggplot2' bindings for discrete and \n    continuous color and fill scales and can be found at \n    <https://cran.r-project.org/package=viridis>.",
@@ -1161,13 +1161,13 @@
         "Suggests": "hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",
         "URL": "https://sjmgarnier.github.io/viridisLite/,\nhttps://github.com/sjmgarnier/viridisLite/",
         "BugReports": "https://github.com/sjmgarnier/viridisLite/issues/",
-        "RoxygenNote": "7.2.3",
+        "RoxygenNote": "7.3.3",
         "NeedsCompilation": "no",
-        "Packaged": "2023-05-02 21:38:46 UTC; simon",
+        "Packaged": "2026-02-03 20:55:07 UTC; simon",
         "Author": "Simon Garnier [aut, cre],\n  Noam Ross [ctb, cph],\n  Bob Rudis [ctb, cph],\n  Marco Sciaini [ctb, cph],\n  Antônio Pedro Camargo [ctb, cph],\n  Cédric Scherer [ctb, cph]",
         "Repository": "CRAN",
-        "Date/Publication": "2023-05-02 23:50:02 UTC",
-        "Built": "R 4.5.0; ; 2025-01-21 00:20:28 UTC; unix"
+        "Date/Publication": "2026-02-04 06:40:10 UTC",
+        "Built": "R 4.5.2; ; 2026-02-07 09:05:34 UTC; unix"
       }
     },
     "withr": {
@@ -1260,23 +1260,14 @@
     }
   },
   "files": {
-    "_dashboard-mtcars.html": {
-      "checksum": "60b8e98952f4d77322293086069c0ad7"
-    },
     "_dashboard-mtcars.qmd": {
-      "checksum": "304e1041dbd2fe223fe3f3cd8f5df098"
+      "checksum": "5e964a2c732fc3d90f042d5a53facbdd"
     },
     ".Rbuildignore": {
       "checksum": "87f9d4ec0ffedff42d9aa1a7e04c6c96"
     },
     "DESCRIPTION": {
       "checksum": "cb7c2fe888ae6e5ad2151987ec1bdca6"
-    },
-    "man/vis_scatterplot.Rd": {
-      "checksum": "1ae5924bed0138b0bd80c94edc3112b7"
-    },
-    "NAMESPACE": {
-      "checksum": "9c4197245b98b78b54407c10484367dd"
     },
     "R/vis_scatterplot.R": {
       "checksum": "3578c2e450141775c1f5edcb0913931d"
